@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Generate Password</h1>
+
+    <form action="#">
+        <div class="option">
+            <div class="option-left">
+                <input type="checkbox" id="lowercase" value="option1">
+            </div>
+            <div class="option-right">
+                <label for="checkbox1">a - Lowercase</label>
+            </div> 
+        </div>
+
+        <div class="option">
+            <div class="option-left">
+                <input type="checkbox" id="uppercase" value="option2">
+            </div>
+            <div class="option-right">
+                <label for="checkbox2">A - Uppercase</label>
+            </div> 
+        </div>
+        
+        <div class="option">
+            <div class="option-left">
+                <input type="checkbox" id="number" value="option3">
+            </div>
+            <div class="option-right">
+                <label for="checkbox3">1 - Number</label>
+            </div> 
+        </div>
+
+        <div class="option">
+            <div class="option-left">
+                <input type="text" id="specialCharacter">
+            </div>
+            <div class="option-right">
+                <label for="dataInput">Special characters</label>
+            </div> 
+        </div>
+
+        <div class="option">
+            <div class="option-left">
+                <input type="number" id="length">
+            </div>
+            <div class="option-right">
+                <label for="dataInput">Length</label>
+            </div> 
+        </div>
+
+        <div class="option">
+            <div class="option-left">
+                <input type="number" id="numberOfPassword">
+            </div>
+            <div class="option-right">
+                <label for="dataInput">Number of passwords</label>
+            </div> 
+        </div>
+
+        <input type="button" value="Generator" onclick="handler()">
+        <br>
+
+        <div class="display">
+            <p id="password-display"></p>
+        </div>
+        
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+} 
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+form > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+form > div > label {
+    width: 150px;
+    text-align: left;
+}
+
+input[type="checkbox"], input[type="text"], input[type="number"] {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    color: #333;
+}
+
+input[type="text"], input[type="number"] {
+    margin-right: 10px;
+    flex-grow: 1;
+    width: 100px;
+}
+
+.option {
+    display: flex; 
+  }
+  
+.option-left {
+    flex: 1;
+    text-align: right;
+}
+
+.option-right {
+    flex: 1;
+    text-align: left;
+}
+
+.display {
+    display: inline-block;
+    text-align: center; /* Căn giữa nội dung trong div */
+}
+  
+#password-display {
+    text-align: left; /* Căn trái nội dung trong p */
+}
+  
+  
